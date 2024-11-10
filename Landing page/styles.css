@@ -1,0 +1,79 @@
+body {
+    background-image: url(./css/IMG_20240722_215135_689.jpg);
+    background-image: linear-gradient(90deg, black 30%, rgb(3, 3, 41) 100%);
+}
+
+.picture {
+    float: right;
+}
+
+.b1 {
+    text-align: right;
+}
+
+.super {
+    font-size: 30px;
+    color: white;
+    margin-left: 40rem;
+}
+
+.search {
+    border-radius: 100px;
+    border: 2px solid grey;
+    background-color: transparent;
+}
+
+.navv {
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+.we {
+    color: blue;
+}
+
+.line {
+    position: inherit;
+    width: 130px;
+    height: 10px;
+    background: linear-gradient(90deg, orangered 00%, black 100%);
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.line3 {
+    width: 10px;
+    height: 100px;
+    background: linear-gradient(-130deg, rgb(163, 79, 93) 30%, black 100%);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    width: 10rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+}
+
+/* .back-ground{
+    background-color: black;
+} */
+
+.circle{
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 500px;
+    background: linear-gradient(-130deg, aqua 30%, black 100%);
+    float: right;
+}
+/* .circle{
+    float:right;
+
+} */

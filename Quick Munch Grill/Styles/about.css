@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#aboutt{
+    background-color: #2a293b;
+    height: 100vh;
+    color: white;
+}
+
+body {
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2a293b;
+    box-shadow: 0 2px 2px black;
+    z-index: 999;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 30px;
+    height: 40px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    list-style: none;
+    margin-left: 40rem;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li a:hover {
+    color: aqua;
+    transition: 0.3s;
+    background-color: violet;
+}
+
+#navbar button {
+    border-radius: 10px;
+    background-color: #f7931e;
+    color: white;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.para{
+    margin-left: 2rem;
+}
+.about img{
+    height: 600px;
+    width: 500px;
+    margin-top:-5rem;
+}
+h3{
+    padding-top: 20px;
+    margin-left: 70px;
+}
+
+.class{
+    margin-top:-9rem;
+    margin-left:70px;
+    color: white;
+}
+.class .heading2{
+    margin-left:80px;
+}
+.para{
+    padding-top:80px;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:#b5fbb1;
+    width: 100%;
+    height: 50vh;
+    margin-top:-60px;
+   
+  } 
+  footer .col{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .col h5{
+    color: #f7931e;
+    margin-top: 10px;
+  }
+  .col a{
+    text-decoration: none;
+    color:white;
+  }
+  .col img{
+    height:400px;
+    margin-top:-5rem;
+    margin-left: 20px;
+  }
+  .copy{
+    color:white;
+    text-align: center;
+    margin-top:-7rem;
+    margin-left:55px;
+  }
+  .icons{
+    color: white;
+  }
+  .fb{
+    margin-top:-15rem;
+    margin-left:10rem;
+  }
+  .location{
+    margin-top:-52.5rem;
+    margin-left:25rem;
+  }
+  .app{
+    margin-top:-52.2rem;
+    margin-left:35rem;
+  }
+  .link{
+    margin-top:-53rem;
+    margin-left:40rem;
+  } 

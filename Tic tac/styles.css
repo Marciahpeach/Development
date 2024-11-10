@@ -1,0 +1,38 @@
+html, body{
+    height: 100%;
+}
+
+
+body{
+    background-color:orchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board{
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.cell{
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    font-size: 50px;
+    text-align: center;
+    line-height: 95px;
+    cursor: pointer;
+    user-select: none;
+}
+.cell.cell:nth-child(3n){
+    border-right: none;
+}
+.cell.cell:nth-child(n+7){
+    border-bottom: none;
+}
+.cell.highlight{
+    background-color: aqua;
+}
